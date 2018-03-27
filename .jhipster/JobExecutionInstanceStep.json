@@ -1,0 +1,25 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "createTime",
+            "fieldType": "Date"
+        },
+        {
+            "fieldName": "state",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "jobExecutionInstance",
+            "fieldType": "JobExecutionInstance"
+        }
+    ],
+    "changelogDate": "20180327033724",
+    "entityTableName": "job_execution_instance_step",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "angularJSSuffix": "mySuffix"
+}

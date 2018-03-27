@@ -1,0 +1,37 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "batchServiceKey",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "batchServiceName",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "contextRoot",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "operationalStatus",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "batchServiceDescription",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "owner",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180327033722",
+    "entityTableName": "batch_service",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "angularJSSuffix": "mySuffix"
+}

@@ -1,0 +1,45 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "executionInstanceKey",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "jobKey",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "startTime",
+            "fieldType": "Date"
+        },
+        {
+            "fieldName": "endTime",
+            "fieldType": "Date"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "exitCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "exitMessage",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastUpdated",
+            "fieldType": "Date"
+        }
+    ],
+    "changelogDate": "20180327033723",
+    "entityTableName": "job_execution_instance",
+    "dto": "mapstruct",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "angularJSSuffix": "mySuffix"
+}
