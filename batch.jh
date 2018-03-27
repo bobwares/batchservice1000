@@ -1,0 +1,38 @@
+
+entity BatchService {
+	id Long,
+    batchServiceKey String,
+    BatchServiceName String,
+    ContextRoot String,
+    OperationalStatus String,
+    BatchServiceDescription String,
+    Owner String
+}
+
+entity JobExecutionInstance {
+	id Long,
+    executionInstanceKey String,
+    jobKey String,
+    startTime Date,
+    endTime Date,
+    status String,
+    exitCode String,
+    exitMessage String,
+    lastUpdated Date
+}
+
+
+entity JobExecutionInstanceStep {
+	id Long,
+    createTime Date,
+    state String,
+    jobExecutionInstance JobExecutionInstance
+}
+
+
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+// Set an angular suffix
+angularSuffix * with mySuffix
